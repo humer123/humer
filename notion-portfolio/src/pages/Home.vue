@@ -38,7 +38,7 @@ import axios from 'axios'
 
 const data = ref(null)
 
-axios.get('https://api.github.com/users/lauravivan')
+axios.get('https://github.com/humer123')
     .then((response) => {
         data.value = response.data
     })

@@ -18,7 +18,7 @@ const data = ref(null)
 
 onMounted(async () => {
   try {
-    const response = await axios.get('https://api.github.com/repos/lauravivan/TrabalhoFinal-IDW/languages')
+    const response = await axios.get('https://github.com/humer123')
     data.value = response.data
   } catch (error) {
     console.error(error)
